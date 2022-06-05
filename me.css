@@ -14,6 +14,7 @@ header {
     border: double burlywood;
 }
 nav {
+    width: 100%;
     background-color:#C3A6A0;
     text-align: center;
     font-family: Arial;
@@ -33,23 +34,49 @@ nav a:hover {
 nav a:visited{
     color: black;
 }
-footer {
+
+h1{
     color: #444444;
-    padding: 10px;
+    font-size: 30px;
+}
+#news{
+    align-items: center;
+    margin-top:30px;
+}
+
+.productsbox{
+    width: 100%;
     text-align: center;
-    float: left;
+}
+.products{
+    display:inline;
+    margin: 20px;
+}
+#one,#two,#three{
+    width: 300px;
+    height: 300px;
 }
 
-main{
-    padding: 40px;
-    background-color: #F7F1F0;    
+.corperatebox{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-
-main{
-    float: right;
+.corperate{
+    display: inline-block;
 }
-main::after {
-    content: "";
-    clear: both;
-    display:table;
+#c1,#c2,#c3{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    font-size:medium;
+    text-align: left;
+}
+.footer {
+    background-color: #444444;
+    color: beige;
+    text-align: center;
+    padding: 20px;
 }
